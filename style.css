@@ -1,0 +1,43 @@
+* {
+	font-family: arial;
+	text-align: center;
+}
+
+.box {
+	width: 39px;
+	height: 39px;
+	border: 1px solid black;
+	display: inline-block;
+	margin: -5px 0px;
+	box-sizing: border-box;
+}
+
+.sum {
+	width: 39px;
+	height: 39px;
+	display: inline-block;
+	margin: -5px 0px -2px 0px;
+	border: 1px solid black;
+	vertical-align: top;
+	padding-top: 10px;
+	box-sizing: border-box;
+	background-color: #00BFFF;
+}
+
+
+.button {
+	width: 100px;
+	height: 100px;
+	margin: 60px;
+	border: double blue;
+	display: inline-block;
+	font-size: 50px;
+	padding-top: 10px;
+	box-sizing: border-box;
+}
+
+
+	
+
+
+

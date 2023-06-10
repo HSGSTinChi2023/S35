@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<title> Game </title>
+
+</head>
+
+<body>
+
+<h1 id="h"> SYMBOLS OF SIMON (2) </h1>
+<br> <br> <br> <br> <br> <br> <br> <br>
+<h2 id="hh"> Choose grid size </h2>
+
+<div id="list">
+	<div class="button" onclick="setgame(3);"></div>	
+	<div class="button" onclick="setgame(4)"></div>
+	<div class="button" onclick="setgame(5);"></div>
+	<div class="button" onclick="setgame(6);"></div>
+	<div class="button" onclick="setgame(7);"></div>
+</div>
+
+
+<div hidden id="board"> </div>
+<div hidden id="blank"> <br><br><br><br> </div>
+<h2 hidden id="status"> Hãy chọn giá trị của các hình </h2>
+<br> <br>
+<div hidden id="ans"> </div>
+
+<br> <br> <br> <br>
+<div hidden id="sub"></div>
+
+<script src="code.js"></script>
+
+</body>
+</html>
